@@ -1,0 +1,37 @@
+1-  Create a User rahul, natasha.
+    Add Group :  hcl
+	
+
+2- Create a collaborative directory /june/july with the following characteristics:
+
+  Group ownership of /june/july is admin
+  The directory should be readable, writable, and accessible to members of admin, 
+  but not to any other user.
+  (It is understood that root has access to all ﬁles and directories on the system.)
+  Files created in /june/july automatically have group ownership set to the admin group
+
+
+3-Copy the ﬁle /etc/fstab to /var/tmp. Conﬁgure the permissions of /var/tmp/fstab so that:
+
+   the ﬁle /var/tmp/fstab is owned by the root user.
+   the ﬁle /var/tmp/fstab belongs to the group hcl.
+   the ﬁle /var/tmp/fstab should not be read, write and executable by anyone but only group hcl user can do.
+   the user rahul is able to read and write /var/tmp/fstab.
+   the user natasha can neither write nor read /var/tmp/fstab.
+   all other users (current or future) can not read, write and execute /var/tmp/fstab
+
+5- Find the root and ftp string in /etc/passwd and /etc/shadow file and copy that string in /string.txt 
+   and also set current date and time in file
+
+6- Create a tar  archive named /data/data1/data2/archive which contains the content of /tmp. 
+   The tar archive must be compress using bzip technique.
+
+7- copy  all the file that end with .conf from /etc and save into /exam-data
+
+8- Create a Crontab job for user  rahul every 3 minute.
+	job : echo   'this is linux' 
+
+9- make a file name practice  in  /a1/a2/a3/a4 directory by root and all user can read file and directory
+    but no one can delete each other file and directory.
+
+10- User rahul & soniya can execute all command without root User.
